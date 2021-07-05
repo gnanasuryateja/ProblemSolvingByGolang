@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	//"probsolbygolang/displayTrees"
+	//"probsolbygolang/model"
 	//"probsolbygolang/problems"
 )
 
@@ -21,12 +21,16 @@ func main() {
 	displayTrees.InOrder(root)
 	fmt.Println("\nPostOrder Traversal of the balanced BST: (Left, Right, Root)")
 	displayTrees.PostOrder(root)
-
 	fmt.Println("")
+
 	arr = []int{6, 4, 12, 10, 22, 54, 32, 42, 21, 11}
 	pairsWithEqualSum := problems.PairsWithEqualSum(arr)
 	for _, val := range pairsWithEqualSum {
 		fmt.Println(val)
-	}*/
-	fmt.Println("\nThank you...")
+	}
+	purchaseDates := []model.StockPurchaseDates{model.StockPurchaseDates{Buy: 0, Sell: 4}, model.StockPurchaseDates{Buy: 4, Sell: 6}, model.StockPurchaseDates{Buy: 3, Sell: 5}}
+	stockPrice := []int{900, 800, 90, 310, 180, 60, 695}
+	dates := problems.FindMaxProfitForStockOverSevenDays(purchaseDates, stockPrice)
+	fmt.Println(dates)*/
+	fmt.Println("Thank you...")
 }
