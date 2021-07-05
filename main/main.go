@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	//"probsolbygolang/model"
 	//"probsolbygolang/problems"
+	//"probsolbygolang/model"
 )
 
 func main() {
@@ -31,6 +31,13 @@ func main() {
 	purchaseDates := []model.StockPurchaseDates{model.StockPurchaseDates{Buy: 0, Sell: 4}, model.StockPurchaseDates{Buy: 4, Sell: 6}, model.StockPurchaseDates{Buy: 3, Sell: 5}}
 	stockPrice := []int{900, 800, 90, 310, 180, 60, 695}
 	dates := problems.FindMaxProfitForStockOverSevenDays(purchaseDates, stockPrice)
-	fmt.Println(dates)*/
+	fmt.Println(dates)
+	arr1 := []int{1, 3, 4, 5}
+	arr2 := []int{2, 4, 6, 8}
+	arr := problems.MergeTwoSortedArrays(arr1, arr2)
+	fmt.Println(arr)
+	arr := []int{1, 1, 3, 2, 6, 5}
+	arr = problems.InPlaceDeletion(arr, 6)
+	fmt.Println(arr)*/
 	fmt.Println("Thank you...")
 }
