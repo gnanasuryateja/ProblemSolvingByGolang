@@ -1,4 +1,4 @@
-package problems
+package model
 
 // defining the node of BST
 type BSTNode struct {

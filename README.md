@@ -9,5 +9,8 @@ This project is a collection of various go programs for common problem solving q
 Convert a sorted integer array to balanced BST
 ```
 ```
-Display BST in preOrder
+Display BST in preOrder, postOrder, inOrder
+```
+```
+Print the pairs of elements with equal sum in a given array
 ```
