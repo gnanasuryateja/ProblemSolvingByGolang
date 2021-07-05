@@ -15,8 +15,12 @@ func main() {
 	n := len(arr)
 	root := problems.SortedArrayToBST(arr, 0, n-1)
 
-	fmt.Println("PreOrder Traversal of the balanced BST: ")
-	display.PreOrder(root)*/
+	fmt.Println("PreOrder Traversal of the balanced BST: (Root, Left, Right)")
+	display.PreOrder(root)
+	fmt.Println("\nInOrder Traversal of the balanced BST: (Left, Root, Right)")
+	display.InOrder(root)
+	fmt.Println("\nPostOrder Traversal of the balanced BST: (Left, Right, Root)")
+	display.PostOrder(root)*/
 
 	fmt.Println("\nThank you...")
 }
