@@ -1,5 +1,12 @@
 # Changelog
 
+## Added (6th July 2021)
+- Largest number in random integer array
+- In a given string, print the highest number of occurances of respective character, null if only once
+- In a given integer array return the 1 if duplicate are there otherwise return -1
+- Serach positition of elemnent or index to inserted in the given sorted array
+- Reverse an array inline
+
 ## Added (5th July 2021)
 - Convert a sorted integer array to balanced Binary Search Tree
 - Preorder display of BST
