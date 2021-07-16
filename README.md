@@ -43,3 +43,6 @@ Otherwise, find the index where K must be inserted to keep the array sorted.
 ```
 Reverse an array inline
 ```
+```
+Append, Insert, Delete, Display functions for a Single Linked List
+```

@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	//"probsolbygolang/problems"
+	//"log"
 	//"probsolbygolang/model"
+	//"probsolbygolang/problems"
 )
 
 func main() {
@@ -11,6 +12,6 @@ func main() {
 	fmt.Println("Checkout various problems in the problems package")
 
 	//Try checking the problems here
-
+	
 	fmt.Println("Thank you...")
 }
