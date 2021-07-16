@@ -1,5 +1,11 @@
 # Changelog
 
+## Added (16th July 2021)
+- Append, Insert, Delete, Display functions for a Single Linked List
+
+## Modified (16th July 2021)
+- function name for creating new node of a BST
+
 ## Added (6th July 2021)
 - Largest number in random integer array
 - In a given string, print the highest number of occurances of respective character, null if only once

@@ -5,7 +5,7 @@ import (
 )
 
 // creating a new node with given data
-func NewNode(data int) *model.BSTNode {
+func NewBSTNode(data int) *model.BSTNode {
 	var node model.BSTNode
 	node.Data = data
 	return &node
@@ -20,7 +20,7 @@ func SortedArrayToBST(arr []int, begin int, end int) *model.BSTNode {
 
 	// make the middle element as root node
 	var mid int = (begin + end) / 2
-	root := NewNode(arr[mid])
+	root := NewBSTNode(arr[mid])
 
 	// building the left and right subtrees recursively
 	root.Left = SortedArrayToBST(arr, begin, mid-1)
