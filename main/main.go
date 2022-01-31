@@ -2,9 +2,6 @@ package main
 
 import (
 	"fmt"
-	//"log"
-	//"probsolbygolang/model"
-	//"probsolbygolang/problems"
 )
 
 func main() {
