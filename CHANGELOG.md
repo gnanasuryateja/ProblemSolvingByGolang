@@ -26,3 +26,7 @@
 
 ## Fixed (5th July 2021)
 - Package name issues in model/BST_Node.go
+
+## Added (7th May 2022)
+- Nth Maximum integer in a slice
+- Remove diuplicate integers in slice
