@@ -46,3 +46,9 @@ Reverse an array inline
 ```
 Append, Insert, Delete, Display functions for a Single Linked List
 ```
+```
+Find nth maximum in a slice
+```
+```
+Remove duplicate integers in slice
+```
